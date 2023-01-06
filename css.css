@@ -1,0 +1,45 @@
+#count {
+    text-align: center;
+}
+body {
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+    color: white;
+}
+#snbutton {
+    width: 500px; 
+    height: 100px; 
+    background-image: linear-gradient(#a41d34, #14c0f1);
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: larger;
+    border-radius: 10px;
+    color: white;
+}
+#head {
+    text-align: center;
+    font-size: 10vmin;
+}
+#count {
+    font-size: 15vmin;
+}
+#buttonsdiv {
+    display: flex; 
+    justify-content: center;
+}
+.bt {
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    border-radius: 4px
+}
+p {
+    color: white;
+    text-align: center
+}
+#footnote {
+    bottom:0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
