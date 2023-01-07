@@ -10,12 +10,12 @@ document.getElementById('count').innerHTML = x;
 function increase() {
    document.getElementById('count').innerHTML = ++x;
    document.cookie = "value = " + x + ";"
-   location.reload()
+   reload()
 }
 function decrease() {
     document.getElementById('count').innerHTML = --x
     document.cookie = "value = " + x + ";"
-    location.reload()
+    reload()
 }
 function reset() {
     document.cookie = "value = 0;"
