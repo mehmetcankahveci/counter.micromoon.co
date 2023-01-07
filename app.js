@@ -18,7 +18,7 @@ function decrease() {
 }
 function reset() {
     document.cookie = "value = 0;"
-    reload();
+    location.reload();
 }
 function neunundsechzig() {
     window.open("https://youtu.be/A1UhABiAfVk", '_blank');
