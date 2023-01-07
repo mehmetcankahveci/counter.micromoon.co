@@ -3,22 +3,22 @@ let cookieValue = document.cookie
 let x = cookieValue;
 if (cookieValue == null) {
     document.cookie = "value = 0;"
-    location.reload();
+    reload();
 }
 document.getElementById('count').innerHTML = x;
 function increase() {
    document.getElementById('count').innerHTML = ++x;
    document.cookie = "value = " + x + ";"
-   location.reload();
+   reload();
 }
 function decrease() {
     document.getElementById('count').innerHTML = --x
     document.cookie = "value = " + x + ";"
-    location.reload();
+    reload();
 }
 function reset() {
     document.cookie = "value = 0;"
-    location.reload();
+    reload();
 }
 function neunundsechzig() {
     window.open("https://youtu.be/A1UhABiAfVk", '_blank');
