@@ -27,13 +27,6 @@ function neunundsechzig() {
 if (x == 69) {
     document.getElementById('sixtyninelol').style = "display = flex;"
 }
-if (x > 0) {
-    document.getElementById('count').style = "color: rgb(0, 181, 0);"
-}
-
-else if (x < 0) {
-    document.getElementById('count').style = "color: red;"
-}
 
 document.onkeydown = checkKey;
 
